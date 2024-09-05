@@ -1,6 +1,6 @@
 {
-  "entrance": "org.allaymc.javaplugintemplate.JavaPluginTemplate",
-  "name": "JavaPluginTemplate",
-  "authors": ["mdx"],
+  "entrance": "org.allaymc.allayvanillaworldgen.AllayVanillaWorldGen",
+  "name": "AllayVanillaWorldGen",
+  "authors": ["CoolLoong", "daoge_cmd"],
   "version": "1.0.0"
 }

@@ -3,8 +3,8 @@ plugins {
     id("com.github.johnrengelman.shadow") version "8.1.1"
 }
 
-group = "org.allaymc.myplugin"
-description = "My plugin"
+group = "org.allaymc.allayvanillaworldgen"
+description = "AllayVanillaWorldGen"
 version = "1.0.0"
 
 java {
@@ -23,7 +23,9 @@ repositories {
 
 dependencies {
     compileOnly(group = "com.github.AllayMC.Allay", name = "Allay-API", version = "master-SNAPSHOT")
+    compileOnly(group = "com.github.AllayMC.Allay", name = "Allay-Server", version = "master-SNAPSHOT")
     compileOnly(group = "org.projectlombok", name = "lombok", version = "1.18.34")
+    implementation(group = "org.allaymc", name = "JEGeneratorBinary", version = "1.20.6-R0.2")
 
     annotationProcessor(group = "org.projectlombok", name = "lombok", version = "1.18.34")
 }
