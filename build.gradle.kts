@@ -22,8 +22,8 @@ repositories {
 }
 
 dependencies {
-    compileOnly(group = "com.github.AllayMC.Allay", name = "Allay-API", version = "master-SNAPSHOT")
-    compileOnly(group = "com.github.AllayMC.Allay", name = "Allay-Server", version = "master-SNAPSHOT")
+    compileOnly(group = "com.github.AllayMC.Allay", name = "api", version = "master-SNAPSHOT")
+    compileOnly(group = "com.github.AllayMC.Allay", name = "server", version = "master-SNAPSHOT")
     compileOnly(group = "org.projectlombok", name = "lombok", version = "1.18.34")
     implementation(group = "org.allaymc", name = "JEGeneratorBinary", version = "1.20.6-R0.2")
 
